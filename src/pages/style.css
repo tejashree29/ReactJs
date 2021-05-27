@@ -1,0 +1,75 @@
+.form-group{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrapper{
+    background-color: rgb(220, 220, 231);
+    
+}
+
+.form-wrapper{
+    background-color:white;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    bottom:150px;
+    border-radius: 10px;
+    width: 30%;
+    
+}
+.header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100px;
+    background-color: rgb(156, 153, 202);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.header h1{
+    font-size: 20px;
+}
+.header p{
+    font-weight: normal;
+    font-size: 15px;
+}
+.header img{
+    position: relative;
+    left:250px;
+    bottom: 90px;
+}
+.form-group span{
+  font-style: italic;
+  font-size: 11px;
+  margin-top:0;
+}
+.editheader{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+    background-color: rgb(67, 67, 73);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.editheader h1{
+    font-size: 18px;
+    color: white;
+}
+.btedit{
+    background-color:rgb(67, 67, 73);
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+}
+.btncancel{
+    background-color:rgb(67, 67, 73);
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+}
+
+

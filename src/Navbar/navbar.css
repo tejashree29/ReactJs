@@ -1,0 +1,133 @@
+.navbar-container{
+    height: 40px;
+    width:100%;
+    background-color: rgba(78, 78, 245, 0.644);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.nav_container{
+    display:flex;
+    align-items: center;
+}
+.nav_bar_wrapper{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.navdpd{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-left: 40px;
+}
+.navbar-left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.navbar-center{
+    flex: 4;
+}
+.navbar-right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.navbar-link{
+    margin-right: 10px;
+    font-size: 18px;
+    color: white;
+}
+.navbar-icons{
+    display: flex;
+    align-items: center;
+}
+.navbar-icon-item{
+    margin-right: 20px;
+    position: relative;
+}
+.navbar-icon-badge{
+    width:15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: -5px;
+    right:-5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+}
+.search-bar{
+    width: 100%;
+    height: 32px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.search-input{
+   width: 70%;
+   border:none;
+}
+.search-input:focus{
+    outline: none;
+}
+.search-icon{
+    margin-left: 8px;
+}
+#btn{
+    background-color: linear-gradient(0,0,0.25,0.15);
+    border-radius: 15px;
+    color: black;
+    border: transparent;
+    margin-left: 90px;
+}
+.table{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+}
+.heading{
+    background-color: teal;
+}
+.editbtn{
+    border-radius: 5px;
+    background-color: rgba(109, 109, 114, 0.644);
+    border: transparent;
+}
+.deletebtn{
+    border-radius: 5px;
+    background-color: rgba(236, 9, 9, 0.973);
+    border: transparent;
+}
+.classid{
+    width: 40%;
+}
+.classtask{
+    width: 60%;
+}
+.classbtn{
+    width: 40%;
+}
+.deletebtn{
+     margin-left: 8px;
+}
